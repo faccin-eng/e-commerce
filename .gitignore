@@ -3,3 +3,16 @@ venv/
 *.pyc
 __pycache__/
 .env
+*.sqlite3
+db.sqlite3
+.DS_Store
+#pg files
+/postgres_data/
+/pgdata/
+*.dump
+*.sql
+# Static files
+/static_collected/
+/staticfiles/
+/static/
+#adicionar /media quando tiver midia
